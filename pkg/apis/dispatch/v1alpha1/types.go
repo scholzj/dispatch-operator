@@ -22,8 +22,10 @@ type Router struct {
 }
 
 type RouterSpec struct {
-	// Fill me
+	// Nodes is the size of the memcached deployment
+	Nodes int32 `json:"nodes,omitempty"`
 }
 type RouterStatus struct {
-	// Fill me
+	// List of broker URLs
+	URLs []string `json:"urls,omitempty"`
 }

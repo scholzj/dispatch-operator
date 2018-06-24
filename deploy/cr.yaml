@@ -2,3 +2,5 @@ apiVersion: "dispatch.scholz.cz/v1alpha1"
 kind: "Router"
 metadata:
   name: "example"
+spec:
+  nodes: 1
